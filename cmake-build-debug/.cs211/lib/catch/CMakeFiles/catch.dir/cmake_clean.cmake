@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/catch.dir/src/catch.cxx.o"
-  "CMakeFiles/catch.dir/src/catch.cxx.o.d"
+  "CMakeFiles/catch.dir/src/catch.cxx.obj"
+  "CMakeFiles/catch.dir/src/catch.cxx.obj.d"
   "libcatch.a"
   "libcatch.pdb"
 )

@@ -49,7 +49,7 @@ unset(_expectedTargets)
 add_library(utf8-cpp INTERFACE IMPORTED)
 
 set_target_properties(utf8-cpp PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/Users/mason/Desktop/Tetris copy/.cs211/lib/ge211/3rdparty/utf8-cpp/include"
+  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/3rdparty/utf8-cpp/include"
 )
 
 # This file does not depend on other imported targets which have

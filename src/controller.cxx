@@ -2,7 +2,7 @@
 
 Controller::Controller()
         : model()
-        , view(model)
+        , view(model, mixer())
 {}
 
 void Controller::draw(ge211::Sprite_set& set)

@@ -1,9 +1,9 @@
 .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_audio.cxx.obj: \
- C:\Users\ebox1\Downloads\cs211\ c++\final_project\.cs211\lib\ge211\src\ge211_audio.cxx \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/include/ge211_audio.hxx \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/include/ge211_forward.hxx \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/include/ge211_error.hxx \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/include/ge211_noexcept.hxx \
+ C:\Users\ebox1\Documents\GitHub\Tetris\.cs211\lib\ge211\src\ge211_audio.cxx \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/include/ge211_audio.hxx \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/include/ge211_forward.hxx \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/include/ge211_error.hxx \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/include/ge211_noexcept.hxx \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/exception \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32/bits/c++config.h \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32/bits/os_defines.h \
@@ -153,7 +153,7 @@
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/sstream.tcc \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/include/ge211_time.hxx \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/include/ge211_time.hxx \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/chrono \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/ratio \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/limits \
@@ -163,12 +163,12 @@
  C:/MinGW/i686-w64-mingw32/include/pthread_time.h \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/parse_numbers.h \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/thread \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/include/ge211_util.hxx \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/include/ge211_util.hxx \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/vector \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/include/ge211_resource.hxx \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/include/ge211_resource.hxx \
  C:/MinGW/include/SDL2/SDL_rwops.h C:/MinGW/include/SDL2/SDL_stdinc.h \
  C:/MinGW/include/SDL2/SDL_config.h C:/MinGW/include/SDL2/SDL_platform.h \
  C:/MinGW/include/SDL2/begin_code.h C:/MinGW/include/SDL2/close_code.h \
@@ -181,7 +181,7 @@
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32/bits/basic_file.h \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32/bits/c++io.h \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/include/ge211_session.hxx \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/include/ge211_session.hxx \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/atomic \
  C:/MinGW/include/SDL2/SDL.h C:/MinGW/include/SDL2/SDL_main.h \
  C:/MinGW/include/SDL2/SDL_assert.h C:/MinGW/include/SDL2/SDL_atomic.h \

@@ -1,1 +1,1 @@
--IC:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/src/../include -IC:/MinGW/include/SDL2 -isystem C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/3rdparty/utf8-cpp/include
+-IC:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/src/../include -IC:/MinGW/include/SDL2 -isystem C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/3rdparty/utf8-cpp/include

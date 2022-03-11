@@ -1,8 +1,8 @@
 .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_color.cxx.obj: \
- C:\Users\ebox1\Downloads\cs211\ c++\final_project\.cs211\lib\ge211\src\ge211_color.cxx \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/include/ge211_color.hxx \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/include/ge211_forward.hxx \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/include/ge211_noexcept.hxx \
+ C:\Users\ebox1\Documents\GitHub\Tetris\.cs211\lib\ge211\src\ge211_color.cxx \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/include/ge211_color.hxx \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/include/ge211_forward.hxx \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/include/ge211_noexcept.hxx \
  C:/MinGW/include/SDL2/SDL_pixels.h C:/MinGW/include/SDL2/SDL_stdinc.h \
  C:/MinGW/include/SDL2/SDL_config.h C:/MinGW/include/SDL2/SDL_platform.h \
  C:/MinGW/include/SDL2/begin_code.h C:/MinGW/include/SDL2/close_code.h \

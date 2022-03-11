@@ -1,15 +1,15 @@
 .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_geometry.cxx.obj: \
- C:\Users\ebox1\Downloads\cs211\ c++\final_project\.cs211\lib\ge211\src\ge211_geometry.cxx \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/include/ge211_geometry.hxx \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/include/ge211_forward.hxx \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/include/ge211_if_cpp.hxx \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/include/ge211_noexcept.hxx \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/include/ge211_type_traits.hxx \
+ C:\Users\ebox1\Documents\GitHub\Tetris\.cs211\lib\ge211\src\ge211_geometry.cxx \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/include/ge211_geometry.hxx \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/include/ge211_forward.hxx \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/include/ge211_if_cpp.hxx \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/include/ge211_noexcept.hxx \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/include/ge211_type_traits.hxx \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/type_traits \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32/bits/c++config.h \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32/bits/os_defines.h \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32/bits/cpu_defines.h \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/include/ge211_util.hxx \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/include/ge211_util.hxx \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/cstdlib \
  C:/MinGW/i686-w64-mingw32/include/stdlib.h \
  C:/MinGW/i686-w64-mingw32/include/crtdefs.h \

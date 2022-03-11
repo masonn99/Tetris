@@ -1,6 +1,6 @@
 .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_session.cxx.obj: \
- C:\Users\ebox1\Downloads\cs211\ c++\final_project\.cs211\lib\ge211\src\ge211_session.cxx \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/include/ge211_session.hxx \
+ C:\Users\ebox1\Documents\GitHub\Tetris\.cs211\lib\ge211\src\ge211_session.cxx \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/include/ge211_session.hxx \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/atomic \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/atomic_base.h \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32/bits/c++config.h \
@@ -21,9 +21,9 @@
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/move.h \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/concept_check.h \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/type_traits \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/include/ge211_error.hxx \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/include/ge211_forward.hxx \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/include/ge211_noexcept.hxx \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/include/ge211_error.hxx \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/include/ge211_forward.hxx \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/include/ge211_noexcept.hxx \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/exception \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/exception.h \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h \
@@ -154,7 +154,7 @@
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/sstream.tcc \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/include/ge211_util.hxx \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/include/ge211_util.hxx \
  C:/MinGW/include/SDL2/SDL.h C:/MinGW/include/SDL2/SDL_main.h \
  C:/MinGW/include/SDL2/SDL_stdinc.h C:/MinGW/include/SDL2/SDL_config.h \
  C:/MinGW/include/SDL2/SDL_platform.h C:/MinGW/include/SDL2/begin_code.h \

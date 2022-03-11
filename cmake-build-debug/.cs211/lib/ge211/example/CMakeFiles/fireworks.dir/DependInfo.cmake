@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/mason/Desktop/Tetris/.cs211/lib/ge211/example/fireworks.cxx" ".cs211/lib/ge211/example/CMakeFiles/fireworks.dir/fireworks.cxx.o" "gcc" ".cs211/lib/ge211/example/CMakeFiles/fireworks.dir/fireworks.cxx.o.d"
+  "C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/example/fireworks.cxx" ".cs211/lib/ge211/example/CMakeFiles/fireworks.dir/fireworks.cxx.obj" "gcc" ".cs211/lib/ge211/example/CMakeFiles/fireworks.dir/fireworks.cxx.obj.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/mason/Desktop/Tetris/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/DependInfo.cmake"
+  "C:/Users/ebox1/Documents/GitHub/Tetris/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

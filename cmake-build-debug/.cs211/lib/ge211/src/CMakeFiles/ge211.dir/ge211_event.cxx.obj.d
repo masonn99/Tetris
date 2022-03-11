@@ -1,9 +1,9 @@
 .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_event.cxx.obj: \
- C:\Users\ebox1\Downloads\cs211\ c++\final_project\.cs211\lib\ge211\src\ge211_event.cxx \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/include/ge211_event.hxx \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/include/ge211_forward.hxx \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/include/ge211_error.hxx \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/include/ge211_noexcept.hxx \
+ C:\Users\ebox1\Documents\GitHub\Tetris\.cs211\lib\ge211\src\ge211_event.cxx \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/include/ge211_event.hxx \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/include/ge211_forward.hxx \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/include/ge211_error.hxx \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/include/ge211_noexcept.hxx \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/exception \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32/bits/c++config.h \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32/bits/os_defines.h \
@@ -170,9 +170,9 @@
  C:/MinGW/include/SDL2/SDL_gamecontroller.h \
  C:/MinGW/include/SDL2/SDL_quit.h C:/MinGW/include/SDL2/SDL_gesture.h \
  C:/MinGW/include/SDL2/SDL_touch.h \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/3rdparty/utf8-cpp/include/utf8.h \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/3rdparty/utf8-cpp/include/utf8/checked.h \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/3rdparty/utf8-cpp/include/utf8/core.h \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/3rdparty/utf8-cpp/include/utf8.h \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/3rdparty/utf8-cpp/include/utf8/checked.h \
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/3rdparty/utf8-cpp/include/utf8/core.h \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/iterator \
  C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stream_iterator.h \
- C:/Users/ebox1/DOWNLO~1/CS211C~1/FINAL_~1/CS211~1/lib/ge211/3rdparty/utf8-cpp/include/utf8/unchecked.h
+ C:/Users/ebox1/Documents/GitHub/Tetris/.cs211/lib/ge211/3rdparty/utf8-cpp/include/utf8/unchecked.h
