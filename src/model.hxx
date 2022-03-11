@@ -25,7 +25,7 @@ public:
 
 private:
     Board board;
-    Pieces mPieces;
+    Pieces Piece_data;
 
     position falling_block_pos; //top left position of the falling block
     int falling_kind, falling_rotation; // more info about falling block

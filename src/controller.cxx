@@ -19,7 +19,7 @@ void Controller::on_key_down(Key k)
     } else if (k == Key::code(' ')) {
         model.can_rotate();
     } else if (k == Key::code('q')) {
-        //quit
+        quit();
     } else if (k == Key::down()) {
         update_interval = 0.05;
     }

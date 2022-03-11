@@ -43,13 +43,13 @@ public:
     void store_piece(position pos, int kind, int rotation);
     void delete_line(int line);
     void delete_line_if_possible();
-    bool can_move(ge211::Posn<int>pos, int pPiece, int pRotation);
-    bool isfreeblock(int pX, int pY);
+    bool can_move(ge211::Posn<int>pos, int type, int rotation);
+    bool is_free_block(int x, int y);
     vector<position> block_poses();
 
 private:
-    Block mBoard [BOARD_HEIGHT][BOARD_WIDTH];
-    Pieces mPieces;// this is just for reference, not data
+    Block board [BOARD_HEIGHT][BOARD_WIDTH];
+    Pieces piece_ref;// this is just for reference, not data
 };
 
 #endif //GAME_BOARD_HXX

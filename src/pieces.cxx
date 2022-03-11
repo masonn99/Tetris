@@ -1,12 +1,13 @@
 //
 // Created by Mason Naung on 3/8/22.
 //
+//referenced javilop.com/gamedev/tetris-tutorial-in-c-platform-independent
+//-focused-in-game-logic-for-beginners/
 #include "pieces.hxx"
 
 // TODO: change name
-const char mPieces [7 /*kind */ ][4 /* rotation */ ][5 /* horizontal blocks */
-][5
-        /* vertical blocks */ ] =
+// in order: type, rotation, horizontal, vertical
+const char Piece_data [7][4][5][5] =
         {
                 // Square
                 {
@@ -229,54 +230,53 @@ const char mPieces [7 /*kind */ ][4 /* rotation */ ][5 /* horizontal blocks */
                 }
         };
 
-
-// Displacement of the piece to the position where it is first drawn in the board when it is created
-const int mPiecesInitialPosition  [7 /*kind */ ][4 /* rotation */ ][2 /*
- * position */] =
+// Adjusting for initial position of blocks (since blocks are of different shape)
+// In order: type, rotation, position
+const int Initial_pieces  [7][4][2] =
         {
-                /* Square */
+                //square
                 {
                         {-2, -3},
                         {-2, -3},
                         {-2, -3},
                         {-2, -3}
                 },
-                /* I */
+                // I
                 {
                         {-2, -2},
                         {-2, -3},
                         {-2, -2},
                         {-2, -3}
                 },
-                /* L */
+                // L
                 {
                         {-2, -3},
                         {-2, -3},
                         {-2, -3},
                         {-2, -2}
                 },
-                /* L mirrored */
+                // L mirrored
                 {
                         {-2, -3},
                         {-2, -2},
                         {-2, -3},
                         {-2, -3}
                 },
-                /* N */
+                // N
                 {
                         {-2, -3},
                         {-2, -3},
                         {-2, -3},
                         {-2, -2}
                 },
-                /* N mirrored */
+                // N mirrored
                 {
                         {-2, -3},
                         {-2, -3},
                         {-2, -3},
                         {-2, -2}
                 },
-                /* T */
+                // T
                 {
                         {-2, -3},
                         {-2, -3},
@@ -285,17 +285,17 @@ const int mPiecesInitialPosition  [7 /*kind */ ][4 /* rotation */ ][2 /*
                 },
         };
 
-int Pieces::GetBlockType (int pPiece, int pRotation, int pX, int pY)
+int Pieces::find_b_type (int piece_type, int piece_rotation, int pos_x, int pos_y)
 {
-    return mPieces [pPiece][pRotation][pX][pY];
+    return Piece_data [piece_type][piece_rotation][pos_x][pos_y];
 }
 
-int Pieces::GetXInitialPosition (int pPiece, int pRotation)
+int Pieces::find_initial_x (int piece_type, int piece_rotation)
 {
-    return mPiecesInitialPosition [pPiece][pRotation][0];
+    return Initial_pieces [piece_type][piece_rotation][0];
 }
 
-int Pieces::GetYInitialPosition (int pPiece, int pRotation)
+int Pieces::find_initial_y (int piece_type, int piece_rotation)
 {
-    return mPiecesInitialPosition [pPiece][pRotation][1];
+    return Initial_pieces [piece_type][piece_rotation][1];
 }

@@ -13,9 +13,10 @@
 class Pieces
 {
 public:
-    int GetBlockType		(int pPiece, int pRotation, int pX, int pY);
-    int GetXInitialPosition (int pPiece, int pRotation);
-    int GetYInitialPosition (int pPiece, int pRotation);
+    int find_b_type (int piece_type, int piece_rotation, int pos_x, int pos_y);
+    int find_initial_x (int piece_type, int piece_rotation);
+    int find_initial_y (int piece_type, int piece_rotation);
+
     ~Pieces() { };
 };
 

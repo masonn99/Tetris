@@ -20,9 +20,9 @@ bool Model::can_rotate()
 bool
 Model::can_shift_left()
 {
-    position newpos = {falling_block_pos.x, falling_block_pos.y - 1};
-    if (board.can_move(newpos, falling_kind, falling_rotation)) {
-        falling_block_pos = newpos;
+    position new_pos = {falling_block_pos.x, falling_block_pos.y - 1};
+    if (board.can_move(new_pos, falling_kind, falling_rotation)) {
+        falling_block_pos = new_pos;
         return true;
     }
     return false;
@@ -31,9 +31,9 @@ Model::can_shift_left()
 bool
 Model::can_shift_right()
 {
-    position newpos = {falling_block_pos.x, falling_block_pos.y + 1};
-    if (board.can_move(newpos, falling_kind, falling_rotation)){
-        falling_block_pos = newpos;
+    position new_pos = {falling_block_pos.x, falling_block_pos.y + 1};
+    if (board.can_move(new_pos, falling_kind, falling_rotation)){
+        falling_block_pos = new_pos;
         return true;
     }
     return false;
@@ -42,7 +42,7 @@ Model::can_shift_right()
 bool Model::is_game_over()
 {
     for (int j = 0; j < BOARD_WIDTH; j++)
-        if (!board.isfreeblock(0, j))
+        if (!board.is_free_block(0, j))
             return true;
     return false;
 }
@@ -50,10 +50,10 @@ bool Model::is_game_over()
 void Model::on_frame(double ms)
 {
     board.delete_line_if_possible();
-    position newpos = {falling_block_pos.x + 1, falling_block_pos.y};
-    if (board.can_move(newpos, falling_kind,
+    position new_pos = {falling_block_pos.x + 1, falling_block_pos.y};
+    if (board.can_move(new_pos, falling_kind,
                        falling_rotation)) {
-        falling_block_pos = newpos; // fall by one block
+        falling_block_pos = new_pos; // fall by one block
     } else {
         // store falling piece and generate new piece
         board.store_piece(falling_block_pos, falling_kind, falling_rotation);
@@ -79,13 +79,13 @@ vector<vector<position>>
 Model::block_poses()
 {
     auto poses = board.block_poses();
-    vector<position> fallingposes;
+    vector<position> falling_poses;
     for (int i = 0; i < PIECE_BLOCKS; i++)
         for (int j = 0; j < PIECE_BLOCKS; j++) {
-            if (mPieces.GetBlockType(falling_kind, falling_rotation, i, j))
-                fallingposes.emplace_back(falling_block_pos.x + i, falling_block_pos
+            if (Piece_data.find_b_type(falling_kind, falling_rotation, i, j))
+                falling_poses.emplace_back(falling_block_pos.x + i, falling_block_pos
                 .y + j);
         }
-    return {poses, fallingposes};
+    return {poses, falling_poses};
 }
 

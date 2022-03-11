@@ -31,7 +31,7 @@ View::load_audio_()
         // To enable background music, put a file named bg_music.ogg
         // in the Resources/ directory.
         if (bg_music_.try_load(bg_music_filename, mixer_)) {
-            mixer_.play_music(bg_music_);
+            mixer_.play_music(bg_music_, true);
         }
     } catch (ge211::Environment_error const& exn) {
         ge211::internal::logging::warn(exn.what())
